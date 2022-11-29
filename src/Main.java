@@ -20,6 +20,12 @@ public class Main {
         var people = watch / workingHours;
         System.out.println("Всего работников в компании- " + people + " человек" );
 
+        var morePeople = people + 94;
+        System.out.println("Количество сотрудников " +morePeople + " если бы их было больше на 94");
+        var workTime = watch / morePeople;
+        System.out.println("Если в компании работает " + morePeople+ " человек, то всего "+ workTime + " часа работы может быть поделено между сотрудниками");
+
+
 
 
 
