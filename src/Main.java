@@ -1,11 +1,13 @@
 public class Main {
     public static void main(String[] args) {
 
-        var box = 5;
-        System.out.println (box);
-        box = box + 2;
-        System.out.println(box);
-        box = box -3;
-        System.out.println(box);
+        var dog = 8;
+        System.out.println (dog);
+
+        var cat = 3.6;
+        System.out.println(cat);
+
+var paper = 763789;
+        System.out.println(paper);
     }
 }
