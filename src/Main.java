@@ -15,6 +15,13 @@ public class Main {
         var overload = boxer2 % boxer1;
         System.out.println("боксер1 на " + overload + "кг меньше боксера2");
 
+        var watch = 640;
+        var workingHours = 8;
+        var people = watch / workingHours;
+        System.out.println("Всего работников в компании- " + people + " человек" );
+
+
+
 
 
     }
